@@ -1,0 +1,37 @@
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: #4d4646;
+  text-align: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5b5656;
+}
+
+h2 {
+  font-family: Georgia, Times, "Times New Roman";
+  color: #7fcd91;
+  text-align: center;
+}
+
+body {
+  background-color: #f5eaea;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+footer { 
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #7fcd91;
+  color: #4d4646;
+  text-align: center;
+}
