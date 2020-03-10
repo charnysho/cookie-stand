@@ -84,8 +84,6 @@ for (var i = 0; i < locations.length; i++) {
   title.textContent = currentLocation.location;
   divEl.appendChild(title);
   currentLocation.generateCookiesPerHour();
-  var li = document.createElement('li');
-  var p = document.createElement('p');
   for(var j = 0; j < currentLocation.cookiesPerHour.length; j++) {
     var li = document.createElement('li');
     var p = document.createElement('p');
@@ -94,11 +92,11 @@ for (var i = 0; i < locations.length; i++) {
     cookiesList.appendChild(li);
     total = total + currentLocation.cookiesPerHour[j];
   }
-  var li = document.createElement('li');
-  var p = document.createElement('p');
-  p.textContent = 'Total: ' + total + ' cookies';
-  li.appendChild(p);
-  cookiesList.appendChild(li);
+  var liTotal = document.createElement('li');
+  var pTotal = document.createElement('p');
+  pTotal.textContent = 'Total: ' + total + ' cookies';
+  liTotal.appendChild(pTotal);
+  cookiesList.appendChild(liTotal);
   divEl.appendChild(cookiesList);
   document.getElementById('main').append(divEl);
 }
