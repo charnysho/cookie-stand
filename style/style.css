@@ -28,3 +28,11 @@ footer {
   color: #4d4646;
   text-align: center;
 }
+
+table, th, td {
+  border: thin solid blue;
+}
+
+table {
+  background-color:#7fcd91;
+}
