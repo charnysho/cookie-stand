@@ -36,7 +36,7 @@ Store.prototype.render = function() {
 var seattleLocation = new Store('Seattle', 65, 23, 6.3);
 var tokyoLocation = new Store('Tokyo', 24, 3, 1.2);
 var dubaiLocation = new Store('Dubai', 38, 11, 3.7);
-var parisLocation = new Store('Seattle', 38, 20, 2.3);
+var parisLocation = new Store('Paris', 38, 20, 2.3);
 var limaLocation = new Store('Lima', 16, 2, 4.6);
 
 var times = [
