@@ -47,7 +47,7 @@ table {
   margin-left:10%; 
   margin-right:10%;
   margin-bottom: 10%;
-  margin-top: 10%;
+  margin-top: 5%;
   font-size: 150%;
 }
 
@@ -76,11 +76,9 @@ a:hover, a:active {
   display: inline-block;
   border: groove;
   border-color: #f5eaea;
-  color: white;
+  color: #4d4646;
   font-family: Georgia, Times, "Times New Roman";
-  background-color: #ba6b57;
 }
-
 
 div {
   width: 300px;
@@ -101,3 +99,11 @@ div {
   background-color: #30475e;
 }
 
+caption {
+  background-color:#30475e;
+  color: #7fcd91;
+  text-align: center;
+  border-spacing: 0.5rem;
+  font-size: 130%;
+  border: 1px solid #7fcd91;
+}
