@@ -9,6 +9,33 @@
   </head>
   <body>
     <a id = "homePageLink" href="index.html">Home page</a>
+    <form id="form">
+      <fieldset>
+        <legend>Enter location name</legend>
+          <label>
+          <input type="text" name="location" required></input>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Information about new store:</legend>
+        <label>
+          Max customers 
+          <input type="number" name="maxCustomers" required></input>
+        </label>
+        <label>
+          Min Customers
+          <input type="number" name="minCustomers" required></input>
+        </label>
+        <label>
+          Avg cookie
+          <input type="number" step="any" name="avgCookie" required></input>
+        </label>
+        <button type="submit" id="submit">Submit</button>
+      </fieldset>
+      <fieldset>
+        <button id="click">Update Sales table</button>
+      </fieldset>
+    </form>
     <table id="table"></table>
     <table id="tableStaff"></table>
     <script src="app/app.js"></script>
