@@ -9,14 +9,15 @@
     <nav class="dropdown">
       <button class="dropbtn">Choose color profile</button>
       <div id="myDropdown" class="dropdown-content">
-        <a href="#">Color profile 1</a>
-        <a href="#">Color profile 2</a>
+        <button type="button" id="color1" onclick="document.getElementById('body').style.backgroundColor = '#ecfbfc'">Color profile 1</button>
+        <button type="button" id="color1" onclick="document.getElementById('body').style.backgroundColor = '#f6eedf'">Color profile 2</button>
+        <button type="button" id="color1" onclick="document.getElementById('body').style.backgroundColor = '#f5eaea'">Default color</button>
       </div>
     </nav>
     <img src="https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/assets/salmon.png" alt="Fish">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body id="body">
     <header>
       <h1>Salmon Cookies </h1>
     </header>
@@ -33,6 +34,7 @@
       </div> 
       <div id="linkBox">
         <a href="sales.html">Sales information</a>
+        <a href="store.html">Go to store</a>
       </div>
       <div id="addresBox">
         <address>
