@@ -153,18 +153,14 @@ function getRandom(min, max) {
 }
 
 var newLocationFormEl = document.getElementById('form');
-var buttonEl = document.getElementById('click');
 
 var newStore;
 var newStoreList = [];
 
-function handleForm(event) {
+function handleButton(event) {
   event.preventDefault();
   var inputs = event.target;
   newStore = new Store(inputs.location.value, inputs.maxCustomers.value, inputs.minCustomers.value, inputs.avgCookie.value);
-}
-
-function handleButton() {
   var tableEl = document.getElementById('table');
   if(document.getElementById(newStore.location) === null) {
     newStoreList.push(newStore);
@@ -182,5 +178,4 @@ function handleButton() {
   }
 }
 
-newLocationFormEl.addEventListener('submit', handleForm);
-buttonEl.addEventListener('click', handleButton);
+newLocationFormEl.addEventListener('submit', handleButton);
